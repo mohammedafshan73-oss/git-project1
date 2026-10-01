@@ -1,0 +1,448 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VÉLORE AUTOMOTIVE</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- LOADING SCREEN -->
+    <div class="loader">
+        <div class="loader-logo">VÉLORE</div>
+        <div class="loader-line"></div>
+    </div>
+
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="brand">
+            <span>V</span>ÉLORE
+        </div>
+
+        <nav>
+
+            <a href="#home">Home</a>
+            <a href="#cars">Cars</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <a href="#contact" class="nav-button">
+            BOOK A DRIVE
+        </a>
+
+        <button class="mobile-menu" onclick="openMenu()">
+            ☰
+        </button>
+
+    </header>
+
+
+    <!-- HERO -->
+
+    <main id="home">
+
+        <section class="hero">
+
+            <div class="hero-bg"></div>
+
+            <div class="hero-content">
+
+                <div class="hero-label">
+                    <span></span>
+                    PREMIUM AUTOMOTIVE COLLECTION
+                </div>
+
+                <h1>
+                    DEFINE YOUR
+                    <strong>DRIVE.</strong>
+                </h1>
+
+                <p>
+                    A curated collection of extraordinary automobiles
+                    designed for those who refuse to settle for ordinary.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a href="#cars" class="primary-btn">
+                        DISCOVER CARS
+                        <span>→</span>
+                    </a>
+
+                    <a href="#contact" class="secondary-btn">
+                        CONTACT US
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-bottom">
+
+                <div>
+                    <strong>01</strong>
+                    <span>EXCLUSIVE<br>COLLECTION</span>
+                </div>
+
+                <div>
+                    <strong>02</strong>
+                    <span>PERSONALIZED<br>EXPERIENCE</span>
+                </div>
+
+                <div>
+                    <strong>03</strong>
+                    <span>PREMIUM<br>SERVICE</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- COLLECTION -->
+
+        <section class="cars-section" id="cars">
+
+            <div class="section-top">
+
+                <div>
+
+                    <small>01 / COLLECTION</small>
+
+                    <h2>
+                        OUR <span>ICONIC</span><br>
+                        COLLECTION
+                    </h2>
+
+                </div>
+
+                <p>
+                    Discover our hand-selected collection of
+                    performance machines, luxury sedans and
+                    extraordinary SUVs.
+                </p>
+
+            </div>
+
+
+            <div class="cars-wrapper">
+
+                <!-- CAR 1 -->
+
+                <article class="car">
+
+                    <div class="car-number">01</div>
+
+                    <img src="https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1400&q=90">
+
+                    <div class="car-overlay">
+
+                        <div>
+                            <span>SUPERCAR</span>
+                            <h3>Ferrari Roma</h3>
+                        </div>
+
+                        <button onclick="openCar('Ferrari Roma')">
+                            VIEW CAR →
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CAR 2 -->
+
+                <article class="car">
+
+                    <div class="car-number">02</div>
+
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=90">
+
+                    <div class="car-overlay">
+
+                        <div>
+                            <span>PERFORMANCE</span>
+                            <h3>Porsche 911</h3>
+                        </div>
+
+                        <button onclick="openCar('Porsche 911')">
+                            VIEW CAR →
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CAR 3 -->
+
+                <article class="car">
+
+                    <div class="car-number">03</div>
+
+                    <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1400&q=90">
+
+                    <div class="car-overlay">
+
+                        <div>
+                            <span>LUXURY SUV</span>
+                            <h3>Range Rover</h3>
+                        </div>
+
+                        <button onclick="openCar('Range Rover')">
+                            VIEW CAR →
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- FEATURE -->
+
+        <section class="feature" id="experience">
+
+            <div class="feature-image"></div>
+
+            <div class="feature-content">
+
+                <small>02 / THE EXPERIENCE</small>
+
+                <h2>
+                    NOT JUST A
+                    <span>CAR.</span>
+                </h2>
+
+                <p>
+                    Every vehicle in our collection represents
+                    a perfect balance between engineering,
+                    design and emotion.
+                </p>
+
+                <a href="#contact" class="line-button">
+                    EXPERIENCE VÉLORE →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- STATS -->
+
+        <section class="stats">
+
+            <div class="stat">
+
+                <strong class="counter" data-target="250">0</strong>
+
+                <span>PREMIUM VEHICLES</span>
+
+            </div>
+
+            <div class="stat">
+
+                <strong class="counter" data-target="18">0</strong>
+
+                <span>LUXURY BRANDS</span>
+
+            </div>
+
+            <div class="stat">
+
+                <strong class="counter" data-target="12">0</strong>
+
+                <span>YEARS EXPERIENCE</span>
+
+            </div>
+
+            <div class="stat">
+
+                <strong class="counter" data-target="5000">0</strong>
+
+                <span>HAPPY CLIENTS</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section class="contact" id="contact">
+
+            <div class="contact-left">
+
+                <small>03 / CONTACT</small>
+
+                <h2>
+                    FIND YOUR
+                    <span>ICON.</span>
+                </h2>
+
+                <p>
+                    Tell us what you're looking for and
+                    our automotive specialists will help
+                    you find your perfect vehicle.
+                </p>
+
+            </div>
+
+
+            <form id="driveForm">
+
+                <div class="field">
+
+                    <label>YOUR NAME</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="field">
+
+                    <label>PHONE NUMBER</label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        placeholder="+91 XXXXX XXXXX"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="field">
+
+                    <label>INTERESTED IN</label>
+
+                    <select id="vehicle">
+
+                        <option value="">
+                            Select a vehicle
+                        </option>
+
+                        <option>Ferrari Roma</option>
+                        <option>Porsche 911</option>
+                        <option>Range Rover</option>
+                        <option>Mercedes-Benz S-Class</option>
+                        <option>Lamborghini Huracán</option>
+
+                    </select>
+
+                </div>
+
+
+                <button type="submit" class="submit-btn">
+                    REQUEST TEST DRIVE
+                    <span>→</span>
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-brand">
+            VÉLORE
+        </div>
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#cars">Collection</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <p>
+            © 2026 VÉLORE AUTOMOTIVE. ALL RIGHTS RESERVED.
+        </p>
+
+    </footer>
+
+
+    <!-- CAR MODAL -->
+
+    <div class="modal" id="carModal">
+
+        <div class="modal-box">
+
+            <button class="close" onclick="closeCar()">
+                ×
+            </button>
+
+            <small>VÉLORE AUTOMOTIVE</small>
+
+            <h2 id="carTitle">
+                Ferrari Roma
+            </h2>
+
+            <div class="modal-specs">
+
+                <div>
+                    <strong>3.4s</strong>
+                    <span>0–100 KM/H</span>
+                </div>
+
+                <div>
+                    <strong>620</strong>
+                    <span>HORSEPOWER</span>
+                </div>
+
+                <div>
+                    <strong>V8</strong>
+                    <span>ENGINE</span>
+                </div>
+
+            </div>
+
+            <button class="primary-btn" onclick="closeCar()">
+                BOOK A DRIVE →
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
