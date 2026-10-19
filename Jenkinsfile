@@ -11,7 +11,7 @@ pipeline {
                 deleteDir()
 
                 sh '''
-                    git clone https://github.com/Shibil-Basith/git-project1.git
+                    git clone https://github.com/mohammedafshan73-oss/git-project1.git
                     ls -l
                 '''
 
