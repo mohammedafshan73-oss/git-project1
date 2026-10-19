@@ -1,4 +1,3 @@
-```css
 * {
     margin: 0;
     padding: 0;
@@ -10,8 +9,8 @@ html {
 }
 
 body {
-    background: #080808;
-    color: #fff;
+    background: #F4F1EB;
+    color: #252525;
     font-family: "Inter", sans-serif;
 }
 
@@ -35,7 +34,7 @@ select {
     position: fixed;
     inset: 0;
 
-    background: #080808;
+    background: #F4F1EB;
 
     display: flex;
     align-items: center;
@@ -57,7 +56,7 @@ select {
     width: 150px;
     height: 1px;
 
-    background: #fff;
+    background: #252525;
 
     margin-top: 25px;
 
@@ -122,7 +121,7 @@ select {
 }
 
 .brand span {
-    color: #b8ff3d;
+    color: #B49A70;
 }
 
 .navbar nav {
@@ -133,17 +132,17 @@ select {
 .navbar nav a {
     font-size: 12px;
 
-    color: #aaa;
+    color: #6E6A64;
 
     transition: .3s;
 }
 
 .navbar nav a:hover {
-    color: #b8ff3d;
+    color: #B49A70;
 }
 
 .nav-button {
-    border: 1px solid #555;
+    border: 1px solid #C9C4BA;
 
     padding: 13px 20px;
 
@@ -155,7 +154,7 @@ select {
 }
 
 .nav-button:hover {
-    background: #b8ff3d;
+    background: #B49A70;
     color: #000;
 }
 
@@ -226,7 +225,7 @@ select {
 }
 
 .hero-label {
-    color: #aaa;
+    color: #6E6A64;
 
     font-size: 10px;
 
@@ -244,7 +243,7 @@ select {
     width: 35px;
     height: 1px;
 
-    background: #b8ff3d;
+    background: #B49A70;
 }
 
 .hero h1 {
@@ -260,7 +259,7 @@ select {
 }
 
 .hero h1 strong {
-    color: #b8ff3d;
+    color: #B49A70;
 
     font-weight: 700;
 }
@@ -268,7 +267,7 @@ select {
 .hero-content > p {
     max-width: 500px;
 
-    color: #bbb;
+    color: #5F5B55;
 
     line-height: 1.8;
 
@@ -303,7 +302,7 @@ select {
 }
 
 .primary-btn {
-    background: #b8ff3d;
+    background: #B49A70;
     color: #000;
 }
 
@@ -313,12 +312,12 @@ select {
 }
 
 .secondary-btn {
-    border: 1px solid #555;
+    border: 1px solid #C9C4BA;
 }
 
 .secondary-btn:hover {
-    border-color: #b8ff3d;
-    color: #b8ff3d;
+    border-color: #B49A70;
+    color: #B49A70;
 }
 
 .hero-bottom {
@@ -341,13 +340,13 @@ select {
 }
 
 .hero-bottom strong {
-    color: #b8ff3d;
+    color: #B49A70;
 
     font-size: 11px;
 }
 
 .hero-bottom span {
-    color: #777;
+    color: #777168;
 
     font-size: 8px;
 
@@ -378,7 +377,7 @@ select {
 .section-top small,
 .feature small,
 .contact small {
-    color: #b8ff3d;
+    color: #B49A70;
 
     letter-spacing: 3px;
 
@@ -398,13 +397,13 @@ select {
 }
 
 .section-top h2 span {
-    color: #b8ff3d;
+    color: #B49A70;
 }
 
 .section-top > p {
     max-width: 330px;
 
-    color: #777;
+    color: #777168;
 
     font-size: 13px;
 
@@ -426,7 +425,7 @@ select {
 
     overflow: hidden;
 
-    background: #111;
+    background: #FFFFFF;
 }
 
 .car img {
@@ -464,7 +463,7 @@ select {
 
     z-index: 2;
 
-    color: #b8ff3d;
+    color: #B49A70;
 
     font-size: 11px;
 }
@@ -486,7 +485,7 @@ select {
 }
 
 .car-overlay span {
-    color: #aaa;
+    color: #6E6A64;
 
     font-size: 9px;
 
@@ -508,7 +507,7 @@ select {
 
     background: transparent;
 
-    color: #b8ff3d;
+    color: #B49A70;
 
     cursor: pointer;
 
@@ -529,7 +528,7 @@ select {
 
     grid-template-columns: 1fr 1fr;
 
-    background: #0d0d0d;
+    background: #EAE6DE;
 }
 
 .feature-image {
@@ -565,11 +564,11 @@ select {
 }
 
 .feature-content h2 span {
-    color: #b8ff3d;
+    color: #B49A70;
 }
 
 .feature-content p {
-    color: #777;
+    color: #777168;
 
     max-width: 400px;
 
@@ -579,7 +578,7 @@ select {
 }
 
 .line-button {
-    color: #b8ff3d;
+    color: #B49A70;
 
     margin-top: 40px;
 
@@ -600,13 +599,13 @@ select {
 
     grid-template-columns: repeat(4,1fr);
 
-    border-bottom: 1px solid #222;
+    border-bottom: 1px solid #D8D2C8;
 }
 
 .stat {
     padding: 30px;
 
-    border-right: 1px solid #222;
+    border-right: 1px solid #D8D2C8;
 }
 
 .stat:last-child {
@@ -620,7 +619,7 @@ select {
 
     font-weight: 400;
 
-    color: #b8ff3d;
+    color: #B49A70;
 }
 
 .stat span {
@@ -628,7 +627,7 @@ select {
 
     margin-top: 10px;
 
-    color: #666;
+    color: #777168168;
 
     font-size: 9px;
 
@@ -663,13 +662,13 @@ select {
 }
 
 .contact-left h2 span {
-    color: #b8ff3d;
+    color: #B49A70;
 }
 
 .contact-left p {
     max-width: 400px;
 
-    color: #777;
+    color: #777168;
 
     line-height: 1.8;
 
@@ -685,7 +684,7 @@ form {
 }
 
 .field {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #D0CAC0;
 
     padding-bottom: 10px;
 }
@@ -693,7 +692,7 @@ form {
 .field label {
     display: block;
 
-    color: #666;
+    color: #777168168;
 
     font-size: 9px;
 
@@ -718,13 +717,13 @@ form {
 }
 
 .field select option {
-    background: #111;
+    background: #FFFFFF;
 }
 
 .submit-btn {
     border: none;
 
-    background: #b8ff3d;
+    background: #B49A70;
 
     color: #000;
 
@@ -755,7 +754,7 @@ form {
 footer {
     padding: 60px 7%;
 
-    border-top: 1px solid #222;
+    border-top: 1px solid #D8D2C8;
 
     display: flex;
 
@@ -783,19 +782,19 @@ footer {
 }
 
 .footer-links a {
-    color: #777;
+    color: #777168;
 
     font-size: 10px;
 }
 
 .footer-links a:hover {
-    color: #b8ff3d;
+    color: #B49A70;
 }
 
 footer p {
     width: 100%;
 
-    color: #444;
+    color: #8B857B;
 
     font-size: 9px;
 }
@@ -831,9 +830,9 @@ footer p {
 .modal-box {
     position: relative;
 
-    background: #111;
+    background: #FFFFFF;
 
-    border: 1px solid #333;
+    border: 1px solid #D0CAC0;
 
     width: 600px;
 
@@ -841,7 +840,7 @@ footer p {
 }
 
 .modal-box small {
-    color: #b8ff3d;
+    color: #B49A70;
 
     letter-spacing: 3px;
 
@@ -892,13 +891,13 @@ footer p {
 }
 
 .modal-specs strong {
-    color: #b8ff3d;
+    color: #B49A70;
 
     font-size: 25px;
 }
 
 .modal-specs span {
-    color: #666;
+    color: #777168168;
 
     font-size: 8px;
 
@@ -999,7 +998,7 @@ footer p {
 
     .stat {
         border-right: none;
-        border-bottom: 1px solid #222;
+        border-bottom: 1px solid #D8D2C8;
     }
 
     .contact {
@@ -1025,4 +1024,262 @@ footer p {
     }
 
 }
-```
+
+/* =========================
+   PREMIUM IVORY & SILVER THEME OVERRIDES
+   ========================= */
+
+body {
+    background: #F4F1EB;
+    color: #252525;
+}
+
+.loader {
+    background: #F4F1EB;
+    color: #252525;
+}
+
+.loader-line {
+    background: #B49A70;
+}
+
+.navbar {
+    background: rgba(244, 241, 235, 0.88);
+    border-bottom: 1px solid rgba(180, 154, 112, 0.25);
+    box-shadow: 0 8px 30px rgba(45, 39, 29, 0.04);
+}
+
+.brand,
+.footer-brand {
+    color: #252525;
+}
+
+.navbar nav a {
+    color: #6E6A64;
+}
+
+.navbar nav a:hover,
+.footer-links a:hover {
+    color: #9B7B48;
+}
+
+.nav-button {
+    border-color: #BEB7AA;
+    color: #252525;
+}
+
+.nav-button:hover {
+    background: #B49A70;
+    color: #FFFFFF;
+}
+
+.mobile-menu {
+    color: #252525;
+}
+
+.hero {
+    background: #242321;
+}
+
+.hero-bg {
+    background:
+        linear-gradient(90deg, rgba(20, 19, 17, 0.82), rgba(20, 19, 17, 0.18)),
+        url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=2200&q=90")
+        center/cover;
+}
+
+.hero h1,
+.hero-content,
+.hero-content h1 {
+    color: #FFFFFF;
+}
+
+.hero-label,
+.hero-content > p,
+.hero-bottom span {
+    color: #E2DED6;
+}
+
+.hero-label span,
+.primary-btn,
+.submit-btn {
+    background: #B49A70;
+}
+
+.hero h1 strong,
+.section-top h2 span,
+.feature-content h2 span,
+.contact-left h2 span,
+.hero-bottom strong,
+.car-number,
+.car-overlay button,
+.line-button,
+.modal-specs strong {
+    color: #D8BD8C;
+}
+
+.primary-btn {
+    color: #252525;
+}
+
+.primary-btn:hover,
+.submit-btn:hover {
+    background: #D8BD8C;
+    color: #252525;
+}
+
+.secondary-btn {
+    border-color: rgba(255, 255, 255, 0.55);
+    color: #FFFFFF;
+}
+
+.secondary-btn:hover {
+    border-color: #D8BD8C;
+    color: #D8BD8C;
+}
+
+.cars-section {
+    background: #F4F1EB;
+}
+
+.section-top small,
+.feature small,
+.contact small {
+    color: #9B7B48;
+}
+
+.section-top h2,
+.feature-content h2,
+.contact-left h2 {
+    color: #252525;
+}
+
+.section-top > p,
+.feature-content p,
+.contact-left p {
+    color: #6E6A64;
+}
+
+.car {
+    background: #E5E0D6;
+    box-shadow: 0 12px 35px rgba(45, 39, 29, 0.08);
+}
+
+.car::after {
+    background: linear-gradient(transparent 30%, rgba(20, 19, 17, 0.88));
+}
+
+.feature {
+    background: #EAE6DE;
+}
+
+.stats {
+    background: #F4F1EB;
+    border-bottom-color: #D8D2C8;
+}
+
+.stat {
+    border-right-color: #D8D2C8;
+}
+
+.stat strong {
+    color: #9B7B48;
+}
+
+.stat span {
+    color: #777168;
+}
+
+.contact {
+    background: #F4F1EB;
+}
+
+.field {
+    border-bottom-color: #C9C4BA;
+}
+
+.field label {
+    color: #777168;
+}
+
+.field input,
+.field select {
+    color: #252525;
+}
+
+.field input::placeholder {
+    color: #9A958B;
+}
+
+.field select option {
+    background: #FFFFFF;
+    color: #252525;
+}
+
+.submit-btn {
+    color: #252525;
+}
+
+footer {
+    background: #EAE6DE;
+    border-top-color: #D8D2C8;
+}
+
+.footer-links a {
+    color: #6E6A64;
+}
+
+footer p {
+    color: #777168;
+}
+
+.modal {
+    background: rgba(35, 32, 27, 0.62);
+}
+
+.modal-box {
+    background: #F8F6F1;
+    border-color: #D8D2C8;
+    color: #252525;
+    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.18);
+}
+
+.modal-box small {
+    color: #9B7B48;
+}
+
+.modal-box h2 {
+    color: #252525;
+}
+
+.close {
+    color: #252525;
+}
+
+.modal-specs strong {
+    color: #9B7B48;
+}
+
+.modal-specs span {
+    color: #777168;
+}
+
+@media (max-width: 900px) {
+    .navbar {
+        background: rgba(244, 241, 235, 0.96);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
